@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="254px" height="298px" viewBox="0 0 254 298" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="19.2708333%" y1="22.423513%" x2="87.96875%" y2="87.8980932%" id="linearGradient-1">
+            <stop stop-color="#F2CC72" offset="0%"></stop>
+            <stop stop-color="#F3D17A" offset="20.0476552%"></stop>
+            <stop stop-color="#E6A237" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Tinder-Gold" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Subscription-Page-Copy" transform="translate(-985.000000, -203.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-5" transform="translate(931.000000, 203.000000)">
+                <path d="M130.2,120.250711 C187.047619,100.608566 196.72381,49.4419898 189.466667,2.39783952 C189.466667,0.70037018 190.918095,-0.512107918 192.369524,0.215378941 C246.798095,26.6474015 308,84.6038546 308,171.902278 C308,238.831069 256.232381,298 181,298 C100.687619,298 54,240.528538 54,171.902278 C54,131.8905 82.3028571,90.6662451 112.782857,73.2065605 C114.234286,72.236578 116.169524,73.2065605 116.169524,74.9040298 C116.895238,83.8763678 119.314286,106.670956 129.232381,120.008215 C129.474286,120.250711 129.958095,120.250711 130.2,120.250711 Z" id="Fill-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

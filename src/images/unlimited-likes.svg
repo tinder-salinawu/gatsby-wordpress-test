@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Likes You</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#02DF8A" offset="0%"></stop>
+            <stop stop-color="#7CF3F5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Master" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Subscription-Page---Annotated" transform="translate(-641.000000, -1904.000000)">
+            <g id="Likes-You" transform="translate(641.000000, 1904.000000)">
+                <g id="Group-3-Copy-2" fill="url(#linearGradient-1)">
+                    <circle id="Oval-Copy-2" cx="80" cy="80" r="80"></circle>
+                </g>
+                <path d="M122.329843,68.3349109 C122.329843,53.0857062 112.176391,42.0156523 98.1881526,42.0156523 C90.6931876,42.0156523 86.6562254,44.8030571 80.1734549,51.1135227 C73.6814945,44.7926223 69.6405938,42 62.1416904,42 C48.1534522,42 38,53.0687496 38,68.3192586 C38,74.7184202 40.2803913,80.7614931 44.4604524,85.5432556 L78.3052932,116.586885 C79.3319288,117.527324 81.0123553,117.531237 82.0403037,116.593407 L112.562364,88.7950105 L112.564989,88.7937062 L114.433151,87.091524 L115.132891,86.3467377 L115.134204,86.3454334 L115.833944,85.5980384 C120.037636,80.8110586 122.329843,74.7523334 122.329843,68.3349109" id="Imported-Layers" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

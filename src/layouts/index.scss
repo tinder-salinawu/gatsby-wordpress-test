@@ -1,0 +1,598 @@
+$pink: #ff7854;
+$darkpink: #fd267d;
+$darkgrey: #484954;
+$white: #FEFEFE;
+
+$defaultFontSize: 14px;
+
+$mobileBreakpoint: 768px;
+
+$desktopHeaderHeight: 92px;
+$mobileHeaderHeight: 58px;
+
+@mixin mobile {
+  @media only screen and (max-width: #{$mobileBreakpoint}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media only screen and (min-width: #{$mobileBreakpoint}) {
+    @content;
+  }
+}
+
+@font-face {
+  font-family: "ProximaNovaBold";
+  src: url("../fonts/proximanova/proximanova-bold.woff2");
+  font-weight: bold;
+}
+
+html, body {
+  font-family: ProximaNovaBold, sans-serif;
+  color: $darkgrey;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+	margin-bottom: 0;
+}
+
+nav {
+  width: 100%;
+  font-size: $defaultFontSize;
+  font-weight: 500;
+  text-transform: uppercase;
+
+
+  ul {
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-family: ProximaNovaBold;
+
+    @include desktop {
+      max-width: 50vw;
+    }
+
+    li {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+}
+
+.hamburgerMenu {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  background: $white;
+  height: $desktopHeaderHeight;
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+  border-bottom: solid 1px #eeeeee;
+
+  .tinderLogo {
+    line-height: 0;
+
+    @include desktop {
+      position: absolute;
+      left: 18px;
+    }
+
+    &__desktop {
+      width: 160px;
+
+      @include mobile {
+        display: none;
+      }
+    }
+
+    &__mobile {
+      width: 25px;
+
+      @include desktop {
+        display: none;
+      }
+    }
+  }
+
+  li {
+	  font-family: ProximaNovaBold;
+	  font-size: 20px;
+	  font-weight: normal;
+	  font-style: italic;
+	  font-stretch: normal;
+	  line-height: 2.1;
+	  letter-spacing: -0.8px;
+	  text-align: center;
+  }
+
+  .headerRight {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	height: 100%;
+
+    &__desktop {
+      @include mobile {
+        display: none;
+      }
+    }
+  }
+
+  menuIcon {
+  	padding: 0 20px;
+  	margin-left: 20px;
+  	height: 100%;
+  	align-items: center;
+    cursor: pointer;
+
+    @include mobile {
+      margin: 0;
+      right: 0;
+      position: absolute;
+    }
+
+    @include desktop {
+      right: 25px;
+      border-left: solid 1px #eeeeee;
+    	border-right: solid 1px #eeeeee;
+    }
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  @include mobile {
+    height: $mobileHeaderHeight;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+
+    nav {
+      text-align: center;
+      justify-content: space-between;
+
+      ul {
+        display: none;
+      }
+
+      .hamburger-button {
+        display: block;
+        height: 24px;
+        width: 24px;
+        float: right;
+      }
+    }
+  }
+}
+
+language-picker {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 80px;
+}
+
+menu {
+  background-color: white;
+  margin-top: 0;
+  padding: 0;
+  border-bottom: solid 1px #eeeeee;
+  box-shadow: 0 7px 10px 0 hsla(0,0%,61%,.12);
+
+  menuLinks {
+    display: flex;
+    padding: 0 80px 20px;
+
+    @include mobile {
+      flex-wrap: wrap;
+      justify-content: left;
+      padding: 20px;
+    }
+  }
+
+  .menu-section-title {
+    font-family: ProximaNovaBold;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 2.1;
+    letter-spacing: -0.8px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  section {
+    width: 50%;
+  }
+
+  ul {
+    line-height: 1;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+  a:hover {
+    color: $darkpink;
+  }
+
+  .language-list {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0 80px;
+    overflow: scroll;
+
+    li {
+      width: 23%;
+    }
+  }
+}
+
+footer {
+	background: $white;
+	height: $desktopHeaderHeight;
+	display: flex;
+	padding: 0 140px;
+	width: 100%;
+	border-top: solid 1px #eeeeee;
+
+  @include mobile {
+    padding: 0 25px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-section {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    @include mobile {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .footer-text {
+      padding-right: 40px;
+      font-size: 20px;
+      font-style: italic;
+
+      @include mobile {
+        font-size: 16px;
+        padding: 0;
+      }
+    }
+
+    .footer-icons {
+      width: 140px;
+      justify-content: space-between;
+      display: flex;
+
+      @include mobile {
+        width: 100px;
+      }
+
+      img {
+        width: 44px;
+
+        @include mobile {
+          width: 30px;
+        }
+      }
+    }
+  }
+}
+
+.tinder__productHeader {
+	border-bottom: solid 1px #eeeeee;
+	display: flex;
+	flex-direction: column;
+	font-family: ProximaNovaBold;
+  padding: 200px 200px 100px;
+
+  @include mobile {
+    padding: 100px 50px 80px;
+    text-align: center;
+  }
+
+	.product-overview {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 100%;
+
+    @include mobile {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+		h1 {
+      margin-bottom: 20px;
+      font-size: 6em;
+
+      @include mobile {
+        font-size: 2.8em;
+        font-weight: normal;
+      }
+ 		}
+
+		h2 {
+			font-size: 4em;
+			font-weight: normal;
+
+      @include mobile {
+        font-size: 1.4em;
+      }
+		}
+	}
+
+  .product-headline {
+    width: 100%;
+  }
+
+  .get-started {
+    a {
+      color: $white;
+    }
+
+    @include desktop {
+      width: 260px;
+      margin-top: 100px;
+    }
+
+    @include mobile {
+      margin-top: 40px;
+    }
+  }
+
+  .product-icon {
+    @include desktop {
+      width: 70%;
+      max-height: 500px;
+      min-height: 350px;
+      padding-left: 100px;
+    }
+
+    @include mobile {
+      max-height: 150px;
+    }
+  }
+
+}
+
+.tinder__productDescription {
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: solid 1px #eeeeee;
+  padding: 120px 135px;
+
+  @include mobile {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 60px;
+  }
+
+	.overview {
+	  font-size: 40px;
+	  font-weight: 500;
+
+    @include mobile {
+      font-size: 1.4em;
+    }
+	}
+
+	.description {
+    font-size: 1em;
+
+    @include desktop {
+      margin-left: 100px;
+      width: 50%;
+      font-size: 24px;
+    }
+	}
+}
+
+.feature-card-container {
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+
+  @include desktop {
+    margin: 132px;
+    justify-content: space-evenly;
+  }
+}
+
+.featureCard {
+	align-items: center;
+	display: flex;
+	border-radius: 20px;
+	background-color: #ffffff;
+	box-shadow: 0 4px 20px 7px rgba(0, 0, 0, 0.04);
+	margin: 30px 20px;
+
+  @include desktop {
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+  	height: 488px;
+  }
+
+  @include mobile {
+    width: 300px;
+  	height: 150px;
+    margin: 8px;
+  }
+
+	.feature-icon {
+		margin: 50px 20px 20px;
+
+    @include mobile {
+      width: 60px;
+    }
+
+    @include desktop {
+      width: 160px;
+    }
+	}
+
+  .feature-text {
+    width: 60%;
+
+    @include desktop {
+      width: 100%;
+    }
+  }
+
+	h1 {
+    width: 100%;
+		padding: 0 30px;
+
+    @include mobile {
+      font-size: 20px;
+      margin: 0;
+      padding: 0 0 10px;
+    }
+	}
+
+	.description {
+		padding: 12px 32px;
+		font-size: 18px;
+		font-weight: normal;
+
+    @include mobile {
+      font-size: 10px;
+      padding: 0;
+      line-height: 1.5;
+    }
+	}
+}
+
+.getStarted {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  @include mobile {
+    margin: 40px 0;
+  }
+
+  @include desktop {
+    margin-bottom: 132px;
+  }
+
+  button {
+    width: 260px;
+  }
+}
+
+.featureDescription {
+	font-family: ProximaNovaBold;
+	border-bottom: solid 1px #eeeeee;
+	padding: 133px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+
+  @include mobile {
+    padding: 40px;
+  }
+
+	.main {
+		display: flex;
+		justify-content: space-between;
+
+    @include mobile {
+      flex-direction: column-reverse;
+    }
+	}
+
+	.feature-image {
+		width: 100%;
+	}
+
+	.feature-description {
+		width: 100%;
+		font-family: ProximaNovaBold;
+		font-size: 20px;
+		line-height: 1.54;
+		letter-spacing: -0.5px;
+		text-align: left;
+    padding-left: 40px;
+
+    @include mobile {
+      font-size: 16px;
+      padding: 0;
+      text-align: center;
+    }
+	}
+
+	.summary {
+		display: flex;
+		justify-content: center;
+		margin-top: 133px;
+		letter-spacing: -0.3px;
+		font-size: 36px;
+		color: $darkpink;
+
+    @include mobile {
+      margin: 0px 20px;
+      font-size: 20px;
+      text-align: center;
+    }
+	}
+}
+
+button {
+  color: #FEFEFE;
+  background: linear-gradient(258deg, $pink, $darkpink);
+  text-transform: uppercase;
+  min-width: 140px;
+  height: 42px;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 27px;
+  cursor: pointer;
+  border: none;
+  outline: 0;
+
+  &:hover {
+    background: $darkpink;
+    color: $white;
+  }
+
+  @include mobile {
+    height: 43px;
+  }
+
+  .getStarted {
+    width: 260px;
+  }
+}

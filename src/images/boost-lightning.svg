@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="182px" height="349px" viewBox="0 0 182 349" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="100%" fx="50%" fy="100%" r="191.758242%" gradientTransform="translate(0.500000,1.000000),scale(1.000000,0.521490),rotate(-90.000000),scale(1.000000,2.266468),translate(-0.500000,-1.000000)" id="radialGradient-1">
+            <stop stop-color="#CF59FF" offset="0%"></stop>
+            <stop stop-color="#7C48C3" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Master" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Feature-Page---Annotated" transform="translate(-1058.000000, -188.000000)" fill="url(#radialGradient-1)">
+            <g id="Group" transform="translate(198.000000, 188.000000)">
+                <path d="M1035.32015,210.064238 C1045.47614,200.452302 1043.8663,186.886374 1031.75138,179.92275 L1008.90553,166.775625 C996.79062,159.807895 989.509352,142.973662 992.72083,129.374887 L1020.23195,12.7752433 C1023.43932,-0.823531893 1017.75969,-4.09183657 1007.61191,5.52009967 L866.676458,138.941658 C856.524572,148.553594 858.134418,162.115416 870.249331,169.087252 L893.091074,182.226165 C905.20188,189.198001 912.491362,206.032234 909.28399,219.626903 L881.764658,336.226547 C878.561393,349.825322 884.236921,353.089521 894.388807,343.48169 L1035.32015,210.064238 L1035.32015,210.064238 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

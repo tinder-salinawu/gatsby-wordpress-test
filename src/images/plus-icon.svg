@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138px" height="147px" viewBox="0 0 138 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>+ copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="-13.2366845%" x2="0%" y2="113.874362%" id="linearGradient-1">
+            <stop stop-color="#FF7854" offset="0%"></stop>
+            <stop stop-color="#FD267D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Master" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Subscription-Page---Annotated" transform="translate(-1102.000000, -293.000000)" fill="url(#linearGradient-1)">
+            <g id="Header" transform="translate(197.000000, 221.000000)">
+                <path d="M1041.20436,156.440252 C1042.19606,156.440252 1043,155.63022 1043,154.650039 L1043,133.884553 C1043,132.895845 1042.1957,132.09434 1041.20436,132.09434 L987.61435,132.09434 L987.61435,73.7985042 C987.61435,72.8052178 986.808709,72 985.8063,72 L962.503117,72 C961.504559,72 960.695067,72.8040698 960.695067,73.7985042 L960.695067,132.09434 L906.805671,132.09434 C905.808426,132.09434 905,132.904372 905,133.884553 L905,154.650039 C905,155.638746 905.808792,156.440252 906.805671,156.440252 L960.695067,156.440252 L960.695067,217.195176 C960.695067,218.191953 961.500708,219 962.503117,219 L985.8063,219 C986.804858,219 987.61435,218.186133 987.61435,217.195176 L987.61435,156.440252 L1041.20436,156.440252 Z" id="+-copy-2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

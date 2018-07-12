@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="34" viewBox="0 0 110 34">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="110" height="34" fill="#FD5068" rx="4"/>
+        <text fill="#FFF" font-family="ProximaNova-Semibold, Proxima Nova" font-size="16" font-weight="500" letter-spacing=".5">
+            <tspan x="28.36" y="22">LOG IN</tspan>
+        </text>
+    </g>
+</svg>

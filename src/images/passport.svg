@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="93px" viewBox="0 0 93 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-15.6%" y="-15.6%" width="131.1%" height="131.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="3.888" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="50%" cy="100%" fx="50%" fy="100%" r="100%" gradientTransform="translate(0.500000,1.000000),rotate(-90.000000),scale(1.000000,2.266468),translate(-0.500000,-1.000000)" id="radialGradient-2">
+            <stop stop-color="#5A6DEE" offset="0%"></stop>
+            <stop stop-color="#053B90" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Master" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Page---Annotated" transform="translate(-37.000000, -867.000000)">
+            <g id="Group-2" transform="translate(46.000000, 876.000000)">
+                <g id="Group">
+                    <circle id="Oval" fill="#FFFFFF" filter="url(#filter-1)" cx="37.5" cy="37.5" r="37.5"></circle>
+                    <circle id="Oval" fill="url(#radialGradient-2)" cx="37.5" cy="37.5" r="37.5"></circle>
+                </g>
+                <path d="M37.5137778,18.5106383 C29.3244388,18.5106383 22.6595745,24.812341 22.6595745,32.557754 C22.6595745,42.5736232 35.3696962,55.5986553 35.9117633,56.1475265 C36.3250717,56.5684654 36.9048416,56.8085106 37.5137778,56.8085106 C38.12058,56.8085106 38.7003499,56.5691532 39.115081,56.1475265 C39.6564367,55.5986553 52.3672698,42.5736232 52.3672698,32.557754 C52.3665585,24.8116532 45.7024055,18.5106383 37.5137778,18.5106383 L37.5137778,18.5106383 Z M32.6814476,32.2914081 C32.6814476,29.6227141 34.9255696,27.4587393 37.6931041,27.4587393 C40.4599187,27.4587393 42.7033207,29.6220199 42.7033207,32.2914081 C42.7033207,34.9601021 40.4606386,37.1226884 37.6931041,37.1226884 C34.9255696,37.1226884 32.6814476,34.9594078 32.6814476,32.2914081 L32.6814476,32.2914081 Z" id="Imported-Layers-Copy-2" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

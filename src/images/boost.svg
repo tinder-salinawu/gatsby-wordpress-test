@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="198px" height="198px" viewBox="0 0 198 198" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Boost</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-15.2%" y="-15.2%" width="130.4%" height="130.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="8.1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="50%" cy="100%" fx="50%" fy="100%" r="100%" gradientTransform="translate(0.500000,1.000000),rotate(-90.000000),scale(1.000000,2.266468),translate(-0.500000,-1.000000)" id="radialGradient-2">
+            <stop stop-color="#CF59FF" offset="0%"></stop>
+            <stop stop-color="#7C48C3" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Master" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Subscription-Page---Annotated" transform="translate(-214.000000, -1885.000000)">
+            <g id="Boost" transform="translate(233.000000, 1904.000000)">
+                <g id="Group-2-Copy">
+                    <g id="Group">
+                        <circle id="Oval" fill="#FFFFFF" filter="url(#filter-1)" cx="80" cy="80" r="80"></circle>
+                        <circle id="Oval" fill="url(#radialGradient-2)" cx="80" cy="80" r="80"></circle>
+                    </g>
+                </g>
+                <path d="M100.56944,88.9552469 C103.046939,86.6481169 102.654225,83.3919198 99.6988587,81.7204578 L94.1257383,78.5647849 C91.1703715,76.8923373 89.394146,72.8516568 90.1775687,69.5875754 L96.8887557,41.6004425 C97.6711766,38.336361 96.2856606,37.5518777 93.8101652,39.8590077 L59.4297326,71.8838646 C56.9532354,74.1909946 57.3459486,77.4462062 60.3013153,79.1196393 L65.8734339,82.2733411 C68.8277989,83.9467742 70.606028,87.9874547 69.8236072,91.2505506 L63.1104165,119.237684 C62.3289975,122.501765 63.7135117,123.285263 66.1900088,120.979118 L100.56944,88.9552469 L100.56944,88.9552469 Z" id="Shape-Copy" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

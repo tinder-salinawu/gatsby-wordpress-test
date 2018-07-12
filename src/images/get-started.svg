@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="272" height="67" viewBox="0 0 272 67">
+    <defs>
+        <filter id="a" width="115.4%" height="172.7%" x="-7.7%" y="-34.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius="3.5" result="shadowSpreadOuter1"/>
+            <feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <linearGradient id="b" x1="100%" x2="0%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FF7854"/>
+            <stop offset="100%" stop-color="#FD267D"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" filter="url(#a)" transform="translate(6 5)">
+        <rect width="260" height="55" fill="url(#b)" rx="27.5"/>
+        <text fill="#FFF" font-family="ProximaNova-Bold, Proxima Nova" font-size="16" font-weight="bold" letter-spacing="1">
+            <tspan x="73.432" y="33">GET STARTED</tspan>
+        </text>
+    </g>
+</svg>
